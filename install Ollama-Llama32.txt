@@ -57,3 +57,7 @@ Stop Ollama:
  # pkill ollama
 Remove a model:
  #ollama rm llama3
+
+
+
+ ##https://www.youtube.com/watch?v=daZOrbMs61I
