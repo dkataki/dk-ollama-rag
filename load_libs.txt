@@ -1,6 +1,6 @@
+ollama
 streamlit
 PyPDF2
 langchain
 sentence-transformers
 faiss-cpu
-ollama
