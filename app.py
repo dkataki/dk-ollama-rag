@@ -1,3 +1,6 @@
+# pip install -r load_libs.txt 
+#pip list | grep -i lang  - Cgeck langchain all libs installed
+
 import os
 import streamlit as st
 from PyPDF2 import PdfReader
@@ -62,7 +65,7 @@ def build_qa_chain(vector_store_path="faiss_index"):
     return qa_chain
 
 # Streamlit UI setup
-st.title("RAG Chatbot with FAISS and LLaMA")
+st.title("RAG with FAISS and LLaMA")
 st.write("Upload a PDF and ask questions based on its content.")
 
 # File uploader widget to receive PDF from user
